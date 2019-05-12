@@ -108,8 +108,6 @@ document.getElementById('book-form').addEventListener('submit', function(e){
   if(title==="" || author==="" || isbn==="") {
     //error alert
     ui.showAlert('Please fill in all the fields', 'error');
-    //i was here
-
   }
   else {
 //Add book to list
