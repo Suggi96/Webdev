@@ -7,7 +7,7 @@ class Book {
 }
 class UI {
   addBookToList(book) {
-    const list = document.getElementById('book-list');
+    const list = document.getElementById('book-list'); 
     //create tr element
     const row =  document.createElement('tr');
     //Insert cols
@@ -104,7 +104,7 @@ document.getElementById('book-form').addEventListener('submit', function(e){
 //Instantaite UI object
   const ui =  new UI();
 //validate 
-  if(this.title==="" || author==="" || isbn==="") {
+  if(title==="" || author==="" || isbn==="") {
     //error alert
     ui.showAlert('Please fill in all the fields', 'error');
 
